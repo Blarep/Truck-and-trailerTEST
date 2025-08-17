@@ -4,16 +4,16 @@
 INSTANCE_DIR="instancesMedium"
 
 # Define the output file name
-OUTPUT_FILE="results200It-1000iniciales-7-8.txt"
+OUTPUT_FILE="results200It-1500iniciales-17-8.txt"
 
 # Number of iterations per run
 ITERATIONS=200
 
 # Number of runs per solution
-NUM_RUNS=1000
+NUM_RUNS=1500
 
 # Solution Folder
-SOLUTION_FOLDER="instances200-1000-7-8"
+SOLUTION_FOLDER="instances200-1500-17-8"
 
 # Number of parallel groups (hilos)
 NUM_GROUPS=15
@@ -22,7 +22,7 @@ NUM_GROUPS=15
 rm -f "$OUTPUT_FILE"
 
 # Define solution types
-SOLUTION_TYPES=("SolutionB" "SolutionC" "SolutionR")
+SOLUTION_TYPES=("SolutionB" "SolutionC")
 
 # Create the solution folder if it does not exist
 mkdir -p "$SOLUTION_FOLDER"
